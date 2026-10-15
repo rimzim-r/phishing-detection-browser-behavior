@@ -129,3 +129,6 @@ It has not been run on live phishing sites, which is unsafe outside an isolated 
         streamlit run app.py
 
 5. Open `notebooks/phishing_analysis.ipynb` to see the results.
+##
+
+**Live demo:** https://phishing-detection-browser-behavior-hswgcbftt35pkr3mezrud5.streamlit.app/ (URL-text model only, see limits below)
